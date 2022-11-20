@@ -1,8 +1,10 @@
-<div class="d-flex flex-column align-items-center justify-content-center">
-  <p class="rounded w-25 p-3 m-2 bg-light text-dark"><%= @question %></p>
-  <p class="rounded w-25 p-3 m-2 bg-warning text-dark">- <%= @answer %></p>
+<div class="container">
+  <div class="cards d-flex flex-column align-items-center justify-content-center">
+    <p class="rounded w-25 p-3 m-2 bg-light text-dark w-100"><%= @question %></p>
+    <p class="rounded w-25 p-3 m-2 bg-warning text-dark w-100">- <%= @answer %></p>
 
-  <div class="mt-5">
-    <%= link_to "-> Ask a new question", ask_path, class: "text-secondary text-decoration-none" %>
+    <div class="mt-5">
+      <%= link_to "-> Ask a new question", ask_path, class: "text-secondary text-decoration-none" %>
+    </div>
   </div>
 </div>
