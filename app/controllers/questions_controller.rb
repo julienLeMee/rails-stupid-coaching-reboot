@@ -11,5 +11,11 @@ class QuestionsController < ApplicationController
     else
       @answer = "I don't care, get dressed and go to work!"
     end
+    take_screenshot
+  end
+
+  private
+
+  def take_screenshot
   end
 end
